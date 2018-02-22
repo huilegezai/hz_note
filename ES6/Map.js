@@ -294,3 +294,13 @@ function jsonToMap(jsonStr) {
 
 console.log(jsonToMap('[[true,7],[{"foo":3},["abc"]]]'));
 // Map {true => 7, Object {foo: 3} => ['abc']}
+
+
+
+//WeakMap
+/*
+ WeakMap结构与Map结构类似，也是用于生成键值对的集合。
+ WeakMap与Map的区别有两点。
+ 1.首先，WeakMap只接受对象作为键名（null除外），不接受其他类型的值作为键名。
+ 2.其次，WeakMap的键名所指向的对象，不计入垃圾回收机制。
+ */
