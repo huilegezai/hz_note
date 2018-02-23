@@ -1,0 +1,9 @@
+{
+  "name": "mongoose",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "npm demo/bin/www"
+  },
+  "dependencies": {}
+}
