@@ -236,7 +236,7 @@ var React = require('react');
 
 var Breadcrumbs = React.createClass({
     render() {
-        return <nav />;
+        return '<nav />';
     }
 });
 
@@ -247,7 +247,7 @@ import React from 'react';
 
 class Breadcrumbs extends React.Component {
     render() {
-        return <nav />;
+        return '<nav />';
     }
 };
 
