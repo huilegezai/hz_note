@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="text/javascript">
+    console.log("<\/script>")
+<!--因为按照解析嵌入式代码的规则，当浏览器遇到字符串"</script>"时，就会认为那是结束的</script>标签，而通过转义字符"\"解决这个问题-->
+</script>
+<body>
+
+</body>
+<!--现代Web应用程序一般都把全部javascript引用放在<body>元素中页面内容的后面-->
+<!--最好的做法是尽量使用外部文件来包含javascript代码，因为外部文件可以起到以下的优点：1。可维护性，2。可缓存，3。适应未来-->
+</html>
